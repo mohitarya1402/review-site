@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+body{
+	margin:0;
+	padding:0;
+	font-family:'lato',sans-serif;
+	background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+    background-position:center;
+    background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+	font-family:sans-serif;
+}
+
+.nav {
+width:100%;
+background-color: #cfe0e8;
+opacity:0.8;
+color:rgb(29, 26, 26);
+position: fixed; 
+
+}
+.menu{
+line-height:45px;
+font-weight:700;
+text-transform:uppercase;
+}
+.nav ul{
+text-decoration: none;
+margin:0;
+padding:0;
+}
+.nav ul li a{
+	text-decoration: none;
+	color: rgb(8, 8, 8);
+}
+.nav .menu .menu_item{
+display:inline-block;
+position:relative;
+
+}
+.nav .menu .menu_item{
+text-decoration:none;
+padding:12px 24px;
+color:#fff;
+cursor:pointer;
+transition:1s all;
+}
+.submenu{
+display:none;
+position:absolute;
+list-style-type:none;
+text-transform:none;
+}
+.submenu_item{
+width:170px;
+background-color:rgba(0,0,0,0.8);
+}
+.menu_item:hover .submenu{
+	margin: 12px;
+	margin-left: -24px; 
+   display:block;
+
+}
+.submenu_item:hover{
+background-color:rgba(0,0,0,0.6);
+transition:1s all;
+}
+.menu_item:hover{
+background-color:rgba(0,0,0,0.6);
+transition:1s all;
+}
+
+.search_bar{
+	float: right;
+   margin-top: -50px;
+   margin-right: 50px;
+   
+    }
+	.sr_input
+    {
+	 border:none;
+      padding: 6px 10px;
+	  font-size: 17px;
+	  text-decoration-color:  rgb(8, 8, 8);
+    }
+.sr_btn{
+	float: right;
+	margin-right: 100px;
+    border :none;
+    padding: 6px 10px;
+    color:  #fff;
+    background: #286982;
+    font-size: 19px;
+      cursor: pointer;
+}
+
+.search_bar:hover{
+border:1px black;
+}
+
+/*onclick button*/
+input[type="checkbox"]{
+	display: none;
+  }
+		  .add-rev{
+			  background:#fff;
+			  width: 150px;
+			  padding: 10px;
+			  font-size: 25px;
+			  font-weight: 600;
+			  color:#3498db;
+			  text-align: center;
+			  float: right;
+			  margin-top: 93px;
+			  margin-right: 50px;
+			  cursor: pointer;
+		  }
+		  .add-rev:hover{
+			  background-color: ;
+		  }
+  input[type="checkbox"]{
+	display: none;
+  }
+	  .container{
+		  display: none;
+		  position: absolute;
+		  width: 298px; 
+		  padding: 58px 52px 58px 27px;
+		  height:434px;
+		  background-color: aliceblue;
+		  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+		left: 525px;
+		top: 72px;
+	  }
+	  #show:checked ~ .container{
+	display: block;
+  }
+  .container .close-btn{
+	  position: absolute;
+	  right: 20px;
+	  top: 4%;
+	  font-size: 15px;
+	  cursor: pointer;
+  }
+  .text{
+	  text-align: center;
+	  font-size: 27px;
+	  font-weight: 600;
+  
+  }
+  .container form .data{
+	 height: 45px;
+	  width: 100%;
+	  margin: 40px 0px;
+	  padding: 3px;
+  }
+  .container form .data1{
+	   height: 45px;
+	   width: 100%;
+	   margin: 20px 0px;
+	   padding: 3px;
+   }
+   .data1 label{
+	   font-size: 18px;
+   }
+  .container form .data label{
+	  font-size: 18px;
+  }
+  .container form .data input{
+	  height: 80%;
+	  width: 100%;
+	  padding: 10px;
+	  font-size: 17px;
+	  border: 1px solid silver;
+  }
+  
+  
+  .container form .data input:focus{
+	  border-color:  #3498db;
+	  border-bottom-width: 2px
+  }
+  .container form .data textarea{
+	  height: 80%;
+	  width: 100%;
+	  padding: 10px;
+	  font-size: 17px;
+	  border: 1px solid silver;
+  }
+  .container form button{
+	margin: 10px 0 30px 0px;
+	height: 45px;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	font-size: 30px;
+	font-weight: 600;
+	background-color: #fff;
+	cursor: pointer;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
